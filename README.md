@@ -1,4 +1,4 @@
-# Mayanewupdate MayaJS Project
+# MayaJS Project
 
 This project was created with [MayaJS CLI](https://github.com/mayajs/cli) version 0.5.4.
 
