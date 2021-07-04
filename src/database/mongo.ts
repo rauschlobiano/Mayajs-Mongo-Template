@@ -1,5 +1,5 @@
 import env from "../environments";
-import sampleModel from "../models/sample.model";
+import Sample from "../models/sample.model";
 
 export const mongoOptions = {
   connectionString: env.mongo_conn,
@@ -10,5 +10,5 @@ export const mongoOptions = {
     useUnifiedTopology: true,
     useFindAndModify: true,
   },
-  schemas: [sampleModel],
+  schemas: [Sample],
 };
