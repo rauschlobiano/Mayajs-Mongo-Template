@@ -1,10 +1,10 @@
 {
   "name": "mayajs",
   "version": "0.0.0",
-  "description": "MayaJS Project",
+  "description": "Parish Login Backend",
   "main": "index.js",
   "scripts": {
-    "start": "maya s",
+    "start": "maya s --port 3332",
     "build": "maya b"
   },
   "keywords": [
@@ -19,11 +19,19 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "mongoose": "^5.12.7",
-    "mongoose-paginate": "^5.0.3"
+    "mongoose-paginate": "^5.0.3",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "public-ip": "^4.0.4",
+    "hwid": "^0.4.1"
   },
   "devDependencies": {
     "@mayajs/cli": "^0.5.2",
     "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.10",
     "@types/mongoose-paginate": "^5.0.9",
     "@types/node": "^14.0.14",
     "typescript": "^3.9.6"
